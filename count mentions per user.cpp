@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
-using namespace std;
 #include<ranges>
+#include <algorithm>
+using namespace std;
 class Solution {
 public:
     vector<int> countMentions(int numberOfUsers, vector<vector<string>>& events) {
